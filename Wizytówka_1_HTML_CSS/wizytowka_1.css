@@ -1,0 +1,20 @@
+h1 {
+    background-color: black;
+    color: white;
+}
+
+
+img {
+    border: 1px darkgrey;
+    width: 100px;
+}
+
+.first {
+    color: darkblue;
+    font-size: 40px;
+}
+
+.second {
+    color: solid grey;
+    font-size: 20px;
+}
