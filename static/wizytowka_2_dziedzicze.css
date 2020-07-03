@@ -6,7 +6,7 @@ h1 {
 
 img {
     border: 1px darkgrey;
-    width: 100px;
+    width: 3px;
 }
 
 .first {
@@ -14,7 +14,3 @@ img {
     font-size: 40px;
 }
 
-.second {
-    color: solid grey;
-    font-size: 20px;
-}

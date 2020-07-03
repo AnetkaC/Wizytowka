@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>app.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #597cc2;}
+.s1 { color: #aeb5bd;}
+.s2 { color: #5c7ab8;}
+.s3 { color: #7a7a7a;}
+.s4 { color: #807d6e; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+app.py</font>
+</center></td></tr></table>
+<pre><span class="s0">from </span><span class="s1">flask </span><span class="s0">import </span><span class="s1">Flask</span>
+<span class="s0">from </span><span class="s1">flask </span><span class="s0">import </span><span class="s1">request</span><span class="s2">, </span><span class="s1">redirect</span>
+<span class="s0">from </span><span class="s1">flask </span><span class="s0">import </span><span class="s1">render_template</span>
+
+app = Flask(__name__)
+
+
+<span class="s3"># funkcja wyświetli dane o mnie</span>
+<span class="s1">@app.route(</span><span class="s4">'/o_mnie'</span><span class="s1">)</span>
+<span class="s0">def </span><span class="s1">o_mnie():</span>
+    <span class="s0">return </span><span class="s1">render_template(</span><span class="s4">'o_mnie.html'</span><span class="s1">)</span>
+
+
+
+
+<span class="s3"># # funkcja wyświetli dane kontaktowe, dodatkowo dlatego skomentowane</span>
+# @app.route('/contact')
+# def contact():
+#     return render_template('contact.html')
+
+
+
+# funkcja wpisze wszystkie parametry zapisane z formularza kontakt
+
+<span class="s1">@app.route(</span><span class="s4">'/contact'</span><span class="s2">, </span><span class="s1">methods=[</span><span class="s4">'GET'</span><span class="s2">, </span><span class="s4">'POST'</span><span class="s1">])</span>
+<span class="s0">def </span><span class="s1">contact() -&gt; str:</span>
+    <span class="s0">if </span><span class="s1">request.method ==</span><span class="s4">'GET'</span><span class="s1">:</span>
+        print(<span class="s4">&quot;We received GET&quot;</span><span class="s1">)</span>
+        <span class="s0">return </span><span class="s1">render_template(</span><span class="s4">&quot;contact.html&quot;</span><span class="s1">)</span>
+    <span class="s0">elif </span><span class="s1">request.method == </span><span class="s4">'POST'</span><span class="s1">:</span>
+        print(<span class="s4">&quot;We received POST&quot;</span><span class="s1">)</span>
+        print(request.form_kontakt)
+        <span class="s0">return </span><span class="s1">redirect(</span><span class="s4">&quot;/&quot;</span><span class="s1">)</span>
+
+<span class="s0">if </span><span class="s1">__name__ == </span><span class="s4">&quot;__main__&quot;</span><span class="s1">:</span>
+    app.run()</pre>
+</body>
+</html>

@@ -6,8 +6,8 @@
         <link rel="stylesheet" href="wizytowka_2.css">
     </head>
     <body>
-        <h1>Witaj na mojej stronie domowej !</h1>
-        <img src="zdjecie_profilowe.jpg">
+        {% extends "parent.html"%}
+        {% block content %}
         <h2 class="first">Kontakt</h2>
         </ul>
             <li>email: ciszekaneta@gmail.com</li>
@@ -19,5 +19,6 @@
                 </textarea>
             <input type="submit" value="Prześlij">
           </form>
+        {% endblock %}
     </body>
 </html>

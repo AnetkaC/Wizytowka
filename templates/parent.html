@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+    <body>
+        <h1>Witaj na mojej stronie domowej !</h1>
+    {% block head %}
+        <img src="{{url_for('static',filename='mala.jpg')}}"/>
+    {% endblock %}
+    <head>
+    <body>
+        <div id="content">{% block content %}{% endblock %}</div>
+    </body>
+</html>
+    

@@ -6,10 +6,11 @@
         <link rel="stylesheet" href="wizytowka_1.css">
     </head>
     <body>
-        <h1>Witaj na mojej stronie domowej !</h1>
-        <img src="zdjecie_profilowe.jpg">
+        {% extends "parent.html"%}
+        {% block content %}
         <h2 class="first">O mnie</h2>
         <p class="second"><strong>imię:</strong> Aneta</p>
         <p class="second"><strong>nazwisko:</strong> Ciszek</p>
+        {% endblock %}
     </body>
 </html>
