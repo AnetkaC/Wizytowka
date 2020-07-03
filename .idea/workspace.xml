@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85b7fca4-7c44-44d7-9f10-13f28dd731e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Wizytówki_dziedziczenie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/app.py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mala.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wizytówka_1_HTML_CSS/Index_wizytowka_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/o_mnie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wizytówka_1_HTML_CSS/wizytowka_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/wizytowka_1_dziedz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wizytówka_1_HTML_CSS/zdjecie_profilowe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wizytówka_2_HTML_CSS/Index_wizytowka_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wizytówka_2_HTML_CSS/wizytowka_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/wizytowka_2_dziedzicze.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wizytówka_2_HTML_CSS/zdjecie_profilowe.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="85b7fca4-7c44-44d7-9f10-13f28dd731e4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,12 +132,20 @@
       <option name="presentableId" value="Default" />
       <updated>1593770645667</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final version">
+      <created>1593808007041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593808007041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12574404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12574404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -163,7 +155,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -171,6 +163,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/mala.jpg">
